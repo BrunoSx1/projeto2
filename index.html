@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sua Lista de Contatos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./images/logo.png" alt="Agenda Telefonica">
+            <h1>Lista de contatos</h1>
+        </header>
+        <form id="form-contato">
+            <input type="text" id="nome-contato" required placeholder="Nome do contato"/>
+            <input type="number" id="numero-contato" required placeholder="Numero de telefone"/>
+            <button type="submit">Registrar</button>
+        </form id="form-lista">
+        <table cellspacing="0">
+            <thead>               
+                <tr>
+                    <th>
+                        Nome do contato:
+                    </th>
+                    <th>Número de Telefone com DDD:</th>
+                </tr>
+            </thead>
+            <tbody>
+                <td>---</td>
+                <td>---</td>
+            </tbody>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
